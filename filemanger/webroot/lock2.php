@@ -1,0 +1,9 @@
+<?php
+header('content-type:text/html;charset=utf-8');
+$filename='lock.txt';
+$handle=fopen($filename,'ab');
+flock($handle,LOCK_EX+LOCK_NB);
+$i=1;
+while($i<=10000000){
+    fwrite($handle,"b");
+}

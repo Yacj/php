@@ -1,0 +1,73 @@
+body{
+    font-family:"Microsoft YaHei",sans-serif;
+}
+.navbar-default{
+    background-color: #fff;
+    border:none;
+    box-shadow:0px 2px 8px 0px rgba(50,50,50,3);
+}
+.navbar-default .navbar-brand{
+    font-size:30px;
+    font-weight: bold;
+    color:#ABCDEF;
+    height:70px;
+    line-height: 35px;
+}
+
+.navbar-default .navbar-nav>li>a{
+    font-size:16px;
+    font-weight: bold;
+    color:#666;
+    height:70px;
+    line-height: 35px;
+}
+.navbar-nav>li .icon{
+    margin:10px 5px 0 0;
+}
+
+.navbar-toggle{
+    margin-top:17px;
+}
+.navbar-default .navbar-toggle{
+    border-color:#ABCDEF;
+    background-color: pink;
+}
+
+.navbar-default .navbar-toggle .icon-bar{
+    background-color: #ABCDEF;
+}
+
+#download{
+    height: 100%;
+    width: 100%;
+    text-align:center;
+    padding:30px 0;
+    margin-top: 70px;
+    background-color: #ABCDEF;
+}
+#download h1{
+    margin-top:0;
+    margin-bottom:25px;
+    font-weight: bold;
+}
+
+#download p{
+    font-weight: bold;
+    line-height:35px;
+}
+
+#content{
+    font-size:20px;
+    padding:10px 0;
+}
+#list table{
+    width:100%;
+}
+
+footer{
+    padding:20px 0;
+    margin-top: 30px;
+    background-color: #ABCDEF;
+    text-align:center;
+    font-weight: bold;
+}
